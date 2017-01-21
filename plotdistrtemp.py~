@@ -1,8 +1,0 @@
-from scipy import *
-from matplotlib.pyplot import *
-import geometry # Class that describes the geometry (+parameters) of the system
-import solver # Class that solves the Usadel equation
-reload(solver)
-
-geom = geometry.geometry(TL=0.1, TR=0.1, RL = 1000., RR=1000., L=10., V=1., sys='NSN')
-
